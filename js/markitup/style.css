@@ -1,0 +1,130 @@
+
+
+ body{
+      background-color: #6F5499;
+      background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
+      background-repeat: repeat-x;
+      font-family: caviar;
+  }
+
+
+
+.glyphicon-button1:before{
+content: "\e180 1";
+}
+
+.glyphicon-button2:before{
+	content: "\e180 2";
+}
+.glyphicon-button3:before{
+	content: "\e180 3";
+}
+.glyphicon-button4:before{
+	content: "\e180 4";
+}
+.glyphicon-button5:before{
+	content :"\e055";
+}
+
+.glyphicon-button6:before{
+	content:"\e048"
+}
+.glyphicon-button7:before{
+	content:"\e049"
+}
+.glyphicon-button8:before{
+	content:"\e255"
+}
+.glyphicon-button9:before{
+	content:"\e256"
+}
+
+.glyphicon-button10:before{
+	content:"\e056"
+}
+
+.glyphicon-button11:before{
+	content:"\e056"
+}
+
+.glyphicon-button12:before{
+	content:"\e060"
+}
+
+.glyphicon-button13:before{
+	content:"\e144"
+}
+
+.glyphicon-button14:before{
+	content:"\e162"
+}
+
+.glyphicon-button15:before{
+	content:"\e013"
+}
+
+
+
+.markItUp * {
+	margin:0px; padding:0px;
+	outline:none;
+}
+.markItUp a:link,
+.markItUp a:visited {
+	color:#000;
+	text-decoration:none;
+}
+.markItUp  {
+	margin:5px 0 5px 0;
+	border:1px solid #FFFFF;
+}
+.markItUpContainer  {
+		
+	padding:5px 5px 2px 5px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+}
+.markItUpEditor {
+	padding:3px;
+	line-height:18px;
+	overflow:auto;
+}
+.markItUpPreviewFrame	{
+	overflow:auto;
+	height: 375px;
+	margin:5px 0;
+        margin-top: 44px; 
+	border: none;
+	width: 100%;
+}
+.markItUpFooter {
+	width:100%;
+	cursor:n-resize;
+}
+.markItUpResizeHandle {
+	overflow:hidden;
+	width:22px; height:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(images/handle.png);
+	cursor:n-resize;
+}
+/***************************************************************************************/
+/* first row of buttons */
+.markItUpHeader{
+	margin-bottom: 5px;
+}
+.markItUpHeader ul li	{
+	list-style:none;
+	display: inline-block;
+}
+
+
+.markItUpHeader ul a {
+	display:block;
+	background-repeat:no-repeat;
+	padding:5px;
+	margin:0px;
+}
+
+/****************************/
+
